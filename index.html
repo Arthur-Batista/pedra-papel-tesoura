@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pedra Papel Tesoura</h1>
+    </header>
+    
+    <section id="sectionPoints">
+        <p class="points" id="playerPoints">Jogador: 0</p>
+        <p class="points" id="machinePoints">Máquina: 0</p> 
+    </section>
+    <section id="game">
+        <label for="rock">
+            <div>
+                <img src="images/pedra.png" alt="" class="gameImage">
+                <p>Pedra</p>
+                <input type="radio" name="options" id="rock">
+            </div>
+        </label>
+        <label for="paper">
+            <div>
+                <img src="images/papel.png" alt="" class="gameImage">
+                <p>Papel</p>
+                <input type="radio" name="options" id="paper">
+            </div>
+        </label>
+        <label for="scissor">
+            <div>
+                <img src="images/tesoura.png" alt="" class="gameImage">
+                <p>Tesoura</p>
+                <input type="radio" name="options" id="scissor">
+            </div>
+        </label>
+    </section>
+
+    <section id="sectionButton">
+        <button id="play" onclick="play()">Jogar</button>
+        <button id="playAgain" class="hidden" onclick="playAgain()">Jogar Novamente</button>
+    </section>
+
+    <section class="resultImage">
+        <img  class="resultImage">
+    </section>
+    <p id="result"></p>
+
+    <footer class="footer">
+        <p>Desenvolvido por <br/> -><a href="http://instagram.com/arthurbat12.as" target="_blank">Arthur Batista</a><-</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+    
+</body>
+</html>
