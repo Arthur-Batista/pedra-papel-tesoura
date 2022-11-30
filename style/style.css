@@ -20,7 +20,7 @@ body {
 }
 
 header{
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     text-align: center;
     height: 100px;
@@ -133,10 +133,10 @@ button:hover {
 }
 
 .footer{
-    bottom: 0;
-    text-align: center;
+    /* bottom: 0; */
+    /* text-align: center; */
     height: 100px;
-    width: 100vw;
+    /* width: 100vw; */
     background-color: var(--color-second);
     display: flex;
     align-items: center;
